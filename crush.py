@@ -1,4 +1,8 @@
 import time
+from tqdm import tqdm
+for i in tqdm(range(100)):
+    time.sleep(0.1)
+
 name=input("Enter your crush name\n")
 time.sleep(1)
 print(f"\nOhh!  {name},  Nice name")
